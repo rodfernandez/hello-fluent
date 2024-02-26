@@ -1,0 +1,21 @@
+{
+    "name": "hello-fluent",
+    "version": "0.0.1",
+    "description": "",
+    "license": "UNLICENSED",
+    "contributors": [],
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy"
+    },
+    "now": {
+        "scope": "sn_hello_fluent",
+        "scopeId": "cf18b3d29320021060bc1932428918ef",
+        "moduleDir": "src"
+    },
+    "devDependencies": {
+        "@servicenow/glide": "25.0.0-rc.2",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "*"
+    }
+}
